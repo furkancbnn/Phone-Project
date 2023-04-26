@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25%;
+    height: 100vh;
+    place-items: center;
+    background-image: radial-gradient(
+        circle, 
+        rgba(0,0,0,0) 0%,
+        rgba(0,0,0,0.9) 50%
+    ), 
+        url(images/body.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    list-style-type: none;
+    background-color: rgb(216, 214, 208);
+    max-width: 250px;
+    width: 100%;
+    padding: 30px 30px 35px;
+    border-radius: 10px;
+    
+    position: relative; 
+    outline: 10px double black;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 12px black;
+    transition: all 0.5s;
+}
+
+.container:hover{
+    transform: scale(1.1); 
+}
+
+/* PHONE */
+.big-container{
+    display: flex;
+    justify-content: center;
+    
+    padding-bottom: 0px;
+    padding-top: 20px;
+    padding-left: 50px;
+    gap: 50px;
+}
+
+.phone-container{
+    background-color: rgb(206, 201, 201);
+    border-radius: 5px;
+    padding: 12px;
+    
+    width: 10px;
+    height: 30px;
+    border: 2px black solid;
+    transition: all 0.5s;
+}
+
+.phone-container:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+/* ! İphone start */
+.container .phone-screen{
+    border: 3px solid black;
+    height: 120%;
+    width: 100%;
+    border-radius: 10px;
+    
+    position: relative;
+    
+    margin: 30px 10px 0px 0px;
+    padding: 20px 10px 30px 10px; 
+}
+/* ! İphone end */
+/* PHONE */
+
+.container form .title{
+    font-size: 30px;
+    font-weight: 600;
+
+    margin: 20px 0 10px 0;
+    position: relative;
+}
+
+.container form .title::before{
+    border: 3px solid white;
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 35px;
+    
+    bottom: -8px;
+    left: 0;
+    border-radius: 15px;
+    background-color: darkred;
+}
+
+.container form .input-box{
+    width: 100%;
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.container form .input-box .sub{
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgb(36, 30, 30);
+    color: white;
+    border-radius: 15px;
+}
+
+.container form .input-box .sub.sub:hover{
+    background-color: darkred;
+}
+
+
+
+.logo img{
+    border: 10px dotted rgb(241, 85, 28);
+    width: 60px;
+    height: 60px;
+
+    position: absolute;
+    left: 60%;
+    top: 20px;
+
+    border-radius: 50px;
+}
+
+
+
+
+.SosyalMedya{
+    display: flex;
+    position: relative;
+}
+
+.SosyalMedya p{
+    padding: 3px;
+    font-size: 10px;
+}
+
+.text{
+    font-size: 11.5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: bold;
+    text-shadow: 1px 1px red;
+    cursor: pointer;
+}
+
+.text:hover{
+    text-shadow: blue;
+}
+
+.bi{
+}
+
+button{
+    border-radius: 15px;
+    background-color:rgb(36, 30, 30);
+}
+
+button:hover{
+    background-color: darkolivegreen;
+}
+
+.github button a{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+.twitter button a{
+    color: white; 
+    list-style-type: none;
+    text-decoration: none;
+}
+.facebook button a{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* ! PHONE 2 */
+.phone-outdesign2{
+    background-color: white;
+    width: 200px;
+    height: 350px;
+    border-radius: 5%;
+
+    list-style-type: none;
+    
+    position: relative; 
+    outline: 2px solid black;
+    cursor: pointer;
+    box-shadow: 2px 11px 10px 3px rgb(168, 162, 162);
+    transition: all 0.5s;
+}
+
+/* ! PHONE 3 */
+.phone-outdesign3{
+    background-color: white;
+    width: 200px;
+    height: 350px;
+    border-radius: 5%;
+
+    list-style-type: none;
+    
+    position: relative; 
+    outline: 2px solid black;
+    cursor: pointer;
+    box-shadow: 2px 11px 10px 3px rgb(168, 162, 162);
+    transition: all 0.5s;
+}
+
+.phone-outdesign2{
+    background-image: radial-gradient(
+        circle, 
+        rgba(0,0,0,0) 0%,
+        rgba(0,0,0,0.9) 60%
+    ), 
+        url(images/net.jpg);
+
+    padding: 20px;
+    border: 3px solid white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.5s;
+}
+
+.phone-outdesign2:hover{
+    transform: scale(1.2);
+
+}
+
+.phone-outdesign2 img{
+    margin-bottom: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+
+.phone-outdesign3{
+    background-image: radial-gradient(
+        circle, 
+        rgba(0,0,0,0) 0%,
+        rgba(0,0,0,0.9) 60%
+    ), 
+        url(images/net.jpg);
+
+    padding: 20px;
+    border: 3px solid white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.5s;
+}
+
+.phone-outdesign3:hover{
+    transform: scale(1.2);
+}
+
+.phone-outdesign3 img{
+    margin-bottom: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+}
